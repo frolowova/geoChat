@@ -22,6 +22,7 @@ function createPointPosition() {
 		// document.querySelector('.no-browser-support').addClass("visible");
 
 	} else {
+		// Коммент
 		navigator.geolocation.getCurrentPosition(function (position) {
 
 			// Get the coordinates of the current possition.
